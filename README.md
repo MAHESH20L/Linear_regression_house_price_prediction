@@ -1,17 +1,49 @@
-# Linear_regression_house_price_prediction
+# 🏠 House Price Prediction using Linear Regression
 
-🚀 Started My Machine Learning Journey!
-Today, I built my first Machine Learning model using Python and Linear Regression for a simple House Price Prediction project. 🏠📊
-What I worked on: 🔹 Downloaded and explored a housing dataset using KaggleHub
-🔹 Used Pandas to load and inspect the dataset
-🔹 Selected total_rooms as the input feature
-🔹 Used median_house_value as the target
-🔹 Trained a Linear Regression model using Scikit-learn
-🔹 Used the trained model to make a house-value prediction
-For example, when I provided 170 total rooms as input, the model predicted a median house value of approximately $185,392. �
-House_price_prediction.ipynb - Colab.pdf
-This project helped me understand the basic ML workflow:
-Dataset → Feature Selection → Model Training → Prediction
-This is just the beginning. Next, I'm focusing on understanding how the model learns, loss functions, model evaluation, and eventually more ML algorithms.
-💻 Python | Pandas | Scikit-learn | Machine Learning
-#MachineLearning #Python #DataScience #LinearRegression #AI #LearningInPublic #100DaysOfCode
+A beginner-friendly Machine Learning project that predicts the **median house value** using **Linear Regression** and Python.
+
+This project was created as part of my journey into Machine Learning, focusing on understanding the basic workflow of loading a dataset, selecting features, training a model, and making predictions.
+
+---
+
+## 📌 Project Overview
+
+In this project, I used a housing dataset and built a simple Linear Regression model.
+
+The model uses:
+
+- **Input Feature:** `total_rooms`
+- **Target:** `median_house_value`
+
+The goal is to understand how a Machine Learning model can learn a relationship between an input and a numerical output.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- Pandas
+- Scikit-learn
+- KaggleHub
+- Jupyter Notebook / Google Colab
+
+---
+
+## 🔄 Machine Learning Workflow
+
+```text
+Dataset
+   ↓
+Load Dataset
+   ↓
+Explore Data
+   ↓
+Select Feature (total_rooms)
+   ↓
+Select Target (median_house_value)
+   ↓
+Create Linear Regression Model
+   ↓
+Train Model
+   ↓
+Make Prediction
